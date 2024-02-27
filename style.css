@@ -4,6 +4,11 @@ html {
   width: 100%;
   /*background: #e0e0e0 !important;*/
   background: #191919 !important;
+  overflow: hidden;	
+}
+
+body{
+	overflow: hidden;
 }
 
 #homeHyperlinkDev{
