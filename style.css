@@ -1,0 +1,194 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  /*background: #e0e0e0 !important;*/
+  background: #191919 !important;
+}
+
+#homeHyperlinkDev{
+  color: #000000;
+}
+
+@font-face {
+  font-family: semschem;
+  src: url(ROGFontsv1.6-Regular.ttf);
+}
+
+.header {
+  /*background: linear-gradient(0deg, rgba(194,194,194,1) 0%, rgba(255,255,255,1) 100%);*/
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(52,52,52,1) 100%);
+  position: relative;
+  height: 57px;
+  top: -16px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
+
+.logo{
+ position: relative !important;
+ height: 133% !important;
+ bottom: 45px !important;
+  left: 10px !important;
+}
+
+.engine{
+	 position: relative !important;
+ height: 555px !important;
+ bottom: 510px !important;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-text{
+  color: #FFFFFF;
+  visibility: hidden;
+}
+
+#munnaOptionButton, #aboutButton, #otherButton, #testButton, #discord{
+ background: rgb(0,81,163);
+background: linear-gradient(0deg, rgba(0,81,163,1) 0%, rgba(0,176,185,1) 100%); 
+color: #000 !important;
+border: none !important;
+height: 30px !important;
+border-radius: 4px;
+position: relative !important;
+left: 20px !important;
+bottom: 76px !important;
+width: 100px !important;
+font-family: Helvetica;
+font-size: 15px !important;
+font-weight: 700;
+transition: box-shadow 0.25s, linear-gradient 0.25s !important;
+}
+
+#aboutButton{
+  left: 35px !important;
+}
+
+#otherButton{
+  left: 50px !important;
+}
+
+#testButton{
+  left: 65px !important;
+}
+
+/*#discord{
+  left: 1022px !important;
+  bottom: 81.66px !important;
+  width: 150px !important;
+  background: linear-gradient(180deg, rgba(133,159,251,1) 0%, rgba(107,128,199,1) 100%); 
+}*/
+
+#aboutButton:hover, #munnaOptionButton:hover, #otherButton:hover, #testButton:hover{
+
+	box-shadow: 0px 0px 12px 0px #007986;
+background: linear-gradient(180deg, rgba(0,81,163,1) 0%, rgba(0,176,185,1) 100%); 
+}
+
+#discord:hover{
+background: linear-gradient(0deg, rgba(133,159,251,1) 0%, rgba(107,128,199,1) 100%);   
+}
+
+#munnaOptionButton:active, #aboutButton:active, #otherButton:active, #testButton:active{
+box-shadow: 0px 0px 12px 0px #007986;
+background: linear-gradient(0deg, rgba(0,81,163,1) 0%, rgba(0,176,185,1) 100%); 
+}
+
+#discord:active{
+box-shadow: 0px 0px 12px 0px #8080ff;
+background: linear-gradient(0deg, rgba(133,159,251,1) 0%, rgba(107,128,199,1) 100%);    
+}
+
+.title, .aqua, .disc{
+   background: rgb(0,93,186);
+ background: rgb(0,93,186);
+background: linear-gradient(180deg, rgba(0,93,186,1) 0%, rgba(0,194,190,1) 100%);  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  text-shadow: 0px 0px 100px #2f8fa2;
+  font-size: 90px;
+  text-align: center !important;
+  position: relative;
+  bottom: 40px;
+  left: 0px;
+  font-family: semschem;
+}
+
+.blurb, .discText{
+background: linear-gradient(180deg, rgba(0,93,186,1) 0%, rgba(0,194,190,1) 100%);  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  position: relative;
+  
+  bottom: 100px;
+  text-align: center;
+  font-size: 27px;
+  
+  font-family: semschem;
+  
+  font-weight: 700;
+}
+
+.hrefColor{
+	background: #a1a1a1;  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+	transition: text-shadow 0.25s, linear-gradient 0.25s !important;
+  position: relative;
+}
+
+.info1{
+	background: #a1a1a1;  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  position: relative;
+  
+  right: 600px;
+  
+  text-align: center;
+  font-size: 27px;
+  
+  font-family: semschem;
+transition: text-shadow 0.25s, linear-gradient 0.25s !important;
+  font-weight: 700;
+}
+
+.info2{
+	background: #a1a1a1;  
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  position: relative;
+  
+  left: 600px;
+  bottom: 185px;
+  
+  text-align: center;
+  font-size: 27px;
+  
+  font-family: semschem;
+transition: text-shadow 0.25s, linear-gradient 0.25s !important;
+  font-weight: 700;
+}
+
+.info1:hover, .info2:hover, .hrefColor:hover{
+
+background: linear-gradient(180deg, rgba(0,138,166,1) 0%, rgba(0,232,227,1) 100%); 
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+	 text-shadow: 0px 0px 30px #2f8fa24d;
+  
+  
+}
+
+
+
+
